@@ -1,2 +1,9 @@
 language: node_js
 node_js: stable
+deploy:
+  provider: heroku
+  api_key:
+    secure: GBpM0w+iCgseFSu1nZ+ZGPQux/t5P7zw1dR8Wb8+DnSqtUE/VDn6+gTXJIHbm5z9JRnC6n6AzGgzcO1vhMdzZ+r+OTDjhwOVZm24FtxGhTMnjWhQPDzAfp03AuxKkuDVLJWEAwWKqnQX9hDeAxMObz5PUS5/Umdryn4yq75buK9sA+WE9M+V2HRuX7/BgBGwjRIenTUsz2jc5Nz15JknIqixVHlCl76RGXOj0mS/VJZ5TzkFfUXDHQDeEub7BByB2Th+db35OXJZZhEPIfAt4Ac84jpfnQDKgDe4gCSYggiixs+4SfTSlF6PgTN9Z+Bbc0+hHBf/ToEDIbJDPpT5OGwxUjWROyBFEruiQIpK6VMgHuJfT6BQSEOoDG9ZcN+4tGQnM7EIjSQmlav7Maw39eDyVrtHeqZi6ADAjQtY7GqqJtXAOWlz4D1Fro+YSbfmokMbMee4elys+Uz6yxXkMxoMh0/VG8bGFTbReQVVLjoHAy0oWJ16o1deWWXodCFK5ABaEZAAkFiZHPFR2RQYBKtY5odqkiNx4aEF1htR92wS3oHlo3e8HtreDYWdZ6KpVRclqXVSfn9UUKpVq8EXgGnLY4S5PYdG2IgEYaNUJLyzAyhoNs5V7H6w0HDtUK1+i29oHsdERYUoeHfEIibe+87aNq6qa+YUHK2nGSWriVs=
+  app: vg-quiz
+  on:
+    repo: aaronmiller/fullstack-vg-quiz
