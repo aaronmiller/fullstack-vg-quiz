@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VG History Quiz | Fullstack</title>
+    <meta name="author" content="Aaron Miller" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- Offline Font -->
+    <link type="text/css" rel="stylesheet" href="/fonts/press_start_2p.css" />
+    <!-- Favicon -->
+    <link type="image/png" rel="icon" href="/img/snes_icon.png" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> -->
+    <link type="text/css" rel="stylesheet" href="/css/bundle.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      <header class="site-header">
+        <h1>VG History</h1>
+      </header>
+      <main class="site-main" role="main">
+        <section class="start-section">
+          <p class="intro-text">Welcome. Grab a controller and get ready to play!</p>
+          <button class="start-button">Press Start!</button>
+          <p class="starting-text starting-text-hidden">Starting...</p>
+        </section>
+        <section class="quiz-section">
+          <section class="score-container">
+            <p>score:<span class="score"></span></p>
+          </section>
+          <section class="questions-container">
+            <p class="question"></p>
+            <ul class="answers">
+            </ul>
+            <p class="message"></p>
+          </section>
+          <button class="reset hide-reset">reset</button>
+          <p class="resetting-text reset-text-hidden">Resetting...</p>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer" role="contentInfo">
+        <p class="copyright">&copy; <span class="year"></span> Aaron Miller, All Rights Reserved.</p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="/js/bundle.js"></script>
+  </body>
+</html>
